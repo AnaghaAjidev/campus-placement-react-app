@@ -1,7 +1,11 @@
 import React from 'react'
+import NavBar from './NavBar'
 
 const AddReg = () => {
+    
   return (
+    <>
+    <NavBar /> 
     <div className="container mt-5">
       <div className="card shadow p-4">
         <h2 className="text-center mb-4">Campus Placement Registration</h2>
@@ -77,6 +81,7 @@ const AddReg = () => {
         </div>
       </div>
     </div>
+    </>
   )
 }
 
