@@ -73,7 +73,7 @@ const AddReg = () => {
           </div>
 
           <div className="col-12 text-center">
-            <button className="btn btn-success px-4">
+            <button className="btn btn-warning px-4">
               Submit
             </button>
           </div>
