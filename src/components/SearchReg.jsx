@@ -1,0 +1,27 @@
+import React from 'react'
+
+const SearchReg = () => {
+  return (
+    <div className="container mt-5">
+      <div className="card shadow p-4 col-md-6 mx-auto">
+
+        <h3 className="text-center mb-3">Search Registration</h3>
+
+        <label className="form-label">Registration Number</label>
+
+        <input
+          type="text"
+          className="form-control mb-3"
+          placeholder="Enter Registration Number"
+        />
+
+        <button className="btn btn-primary w-100">
+          Search
+        </button>
+
+      </div>
+    </div>
+  )
+}
+
+export default SearchReg

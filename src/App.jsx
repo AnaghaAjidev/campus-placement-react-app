@@ -4,6 +4,7 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
 import AddReg from './components/AddReg'
+import SearchReg from './components/SearchReg'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,6 +12,8 @@ function App() {
   return (
     <>
       <AddReg />
+      <SearchReg />
+      
     </>
   )
 }
